@@ -3,18 +3,11 @@
     height: 500px;
 }
 .modal {
-    padding: 15px;
+    position: absolute;
     z-index: 1000;
-    position:absolute;
-}
-.modal-content{
-    max-width: 800px;
-}
-.modal-content img{
-    max-width: 100%;
-}
-.modal-close{
-    width: 80px;
-    height: 22px;
-    margin-top: 5px;
+    background-color: #6e39eb;
+    height: max-content;
+    padding: 15px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(51, 37, 37);
 }
