@@ -12,7 +12,7 @@ $(function () {
         var modal = (function() {
             var $window = $(window);
             var $modal = $('<div class="modal"></div>');
-            var $header = $('<h3>Food Gallery</h3>')
+            var $header = $('<h3>Flower Photo Gallery</h3>')
             var $content = $('<div class="modal-content"/>');
             var $close = $('<button role="button" class="modal-close">Close</button>');
         
