@@ -1,0 +1,53 @@
+{
+    "cast" :[
+        {
+            "FirstName" : "Tom",
+            "LastName" :"Ellis",
+            "Age":"44",
+            "Partner":"Meaghan Oppenheimer",
+            "ShowName":"Lucifer"
+        },
+        {
+            "FirstName" : "Lesley",
+            "LastName" :"Brandt",
+            "Age":"40",
+            "Partner":"Chris Payne",
+            "ShowName":"Mazikeen"
+        },
+        {
+            "FirstName" : "David",
+            "LastName" :"Woodside",
+            "Age":"53",
+            "Partner":"Golden Brooks",
+            "ShowName":"Amenadiel"
+        },
+        {
+            "FirstName" : "Inbar",
+            "LastName" :"Lavi",
+            "Age":"36",
+            "Partner":"Dan Shira",
+            "ShowName":"Eve"
+        },
+        {
+            "FirstName" : "Tricia",
+            "LastName" :"Helfer",
+            "Age":"48",
+            "Partner":"Jonathan Marshall",
+            "ShowName":"Charlotte"
+        },
+        {
+            "FirstName" : "Dennis",
+            "LastName" :"Haysbert",
+            "Age":"68",
+            "Partner":"Lynn Griffith",
+            "ShowName":"God"
+        },
+        {
+            "FirstName" : "Michael",
+            "LastName" :"Imperioli",
+            "Age":"56",
+            "Partner":"Victoria Imperioli",
+            "ShowName":"Uriel"
+        }
+    ]
+}
