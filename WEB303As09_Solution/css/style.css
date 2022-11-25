@@ -1,5 +1,5 @@
 .sortable {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(196, 145, 145);
     border-collapse: collapse;
     margin: 0;
     padding: 0;
@@ -8,23 +8,23 @@
 }
 
 .sortable thead tr {
-    background-color:  #345362;
-    border: 1px solid #ddd;
-    padding: .35em;
+    background-color:  #886f2b;
+    border: 1px solid rgb(211, 148, 148);
+ 
     text-align: center;
 }
 
 th a {
     text-transform: uppercase;
-    color: #ccc;
+    color: rgb(197, 139, 139);
     cursor: pointer;
     text-decoration: none;
 }
 
 .sortable tbody tr {
-    background-color: #f8f8f8;
-    border: 1px solid #ddd;
-    padding: .35em;
+    background-color: #8b6767;
+    border: 1px solid rgb(158, 63, 63);
+    
     text-align: center;
 }
 
@@ -37,3 +37,9 @@ th a {
 .descending .desc-chevron {
     display: contents;
 }
+body{
+    background-color: rgb(219, 149, 64);
+    font-size: 20px;
+    
+
+  }
