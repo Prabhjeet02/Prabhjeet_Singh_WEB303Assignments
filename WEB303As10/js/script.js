@@ -5,13 +5,13 @@ $(document).ready(function() {
 
 $("#password, #password2").on('keyup', function() {
     if($("#password").val() == $("#password2").val()) {
-        $("#message").html("passwords match");
+        $("#message").html("passwords matched..");
         if($('#password').val().length >= 12) {
             submit.disabled = false;
             submit.className = 'enabled';
         }
     } else {
-        $("#message").html("passwords don't match");
+        $("#message").html("passwords is not matching");
     }
 });
 
@@ -21,9 +21,12 @@ Countries();
         $("#submit").attr("disabled", !this.checked);
     });
 });
+
 var username = document.getElementById('username');
 var country = document.getElementById('country');
 var msg = "Welcome "+username.value+".Selected Country is "+country.value;
+
+
 if(submit){
     document.getElementById('text').innerText = msg;
 }
@@ -50,4 +53,4 @@ function Countries() {
         return getcountries;
     });
     return countries;
-}
+} 
